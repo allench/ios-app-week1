@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MovieCellTableViewCell.h
 //  RottenFruit
 //
 //  Created by Allen Chiang on 6/16/15.
@@ -8,13 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MovieCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *posterView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *synopsisLabel;
 
-@property (strong, nonatomic) NSDictionary *movie;
-
 @end
-
